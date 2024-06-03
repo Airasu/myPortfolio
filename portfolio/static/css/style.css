@@ -4,11 +4,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    color: white;
+
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-small;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,15 +51,15 @@ main header .navigations {
     gap: 1em;
 }
 
-main header .navigations a{
-    color: white;
-    font-size: 1.3em;
+main header .navigations a {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
 }
 
-main header .navigations a:hover{
+main header .navigations a:hover {
     font-weight: 600;
-    transition: 0.2s;
-    border-bottom: 0.2em solid white;
+    transition: 0.1s;
+    border-bottom: 0.2em solid black;
 }
 
 main header .labels {
@@ -66,7 +67,7 @@ main header .labels {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    font-size: 1.6em;
+    font-size: 2em;
     font-weight: 600;
 }
 
@@ -74,7 +75,7 @@ footer {
     margin-top: auto;
     text-align: center;
     padding: 1em;
-    font-size: 1.1em;
+    font-size: 1.8em;
     font-weight: 600;
 }
 
@@ -85,18 +86,43 @@ main .content {
 main .content .home {
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    padding: 8em 0 0 30em;
+    justify-content: center;
+    gap: 4em;
+    padding: 20em 0 0 0;
 }
 
-main .content .home img{
+main .content .home img {
     border-radius: 100em;
-    width: 30em;
-    height: 30em;
+    width: 40em;
+    height: 40em;
     object-fit: cover;
 }
 
-main .content .home h1{
-    text-align: end;
-    font-size: 5em;
+main .content .home h1 {
+    font-size: 10em;
+}
+
+.about {
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.about p {
+    width: 100%;
+    max-width: 40em;
+}
+
+.about img {
+    width: 20em;
+    height: 20em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
 }
