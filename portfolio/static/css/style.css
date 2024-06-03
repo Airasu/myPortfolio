@@ -71,11 +71,22 @@ main header .labels {
     font-weight: 600;
 }
 
+main header .labels .name img {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+main header .labels .name {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
 footer {
     margin-top: auto;
     text-align: center;
     padding: 1em;
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
@@ -124,5 +135,40 @@ main .content .home h1 {
 
 .contact {
     display: flex;
+    align-items: center;
+    font-size: normal;
+    justify-content: center;
+    gap: 4em;
+    padding: 10em 0 0 0;
+}
+
+.contact .links a,
+.contact .links p {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 0.5em;
+}
+
+.contact img {
+    width: 40em;
+    height: 40em;
+}
+
+.contact .links {
+    display: flex;
+    gap: 1em;
     flex-direction: column;
+}
+
+.contact .links h1 {
+    font-weight: normal;
+    font-size: 8em;
+
+}
+
+.contact .links img {
+    width: 2em;
+    height: 2em;
 }
