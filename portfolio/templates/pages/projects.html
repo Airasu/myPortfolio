@@ -1,6 +1,11 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
     <div class="projects">
-        <h1>Projects</h1>
+          <h1>Projects</h1>
+          <div class="proj1">
+            <p>UI/UX design using Figma</p>
+            <img src="{% static "images/proj.png" %}" alt="profile" class="proj">
+          </div>
     </div>
 {% endblock content %}

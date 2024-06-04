@@ -99,7 +99,7 @@ main .content .home {
     align-items: center;
     justify-content: center;
     gap: 4em;
-    padding: 20em 0 0 0;
+    padding: 15em 0 0 0;
 }
 
 main .content .home img {
@@ -167,9 +167,6 @@ main .content .home h1 {
 .contact .links h1 {
     font-weight: bold;
     font-size: 8em;
-
-
-
 }
 
 .contact .links img {
@@ -181,4 +178,35 @@ main .content .home h1 {
     text-align: center;
     font-weight: bold;
     font-size: 8em;
+}
+
+.projects {
+    align-items: center;
+    font-size: normal;
+    justify-content: center;
+    gap: 5em;
+    padding: 10em 0 5 0;
+
+}
+
+
+
+.projects img {
+    margin-top: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+    height: 50em;
+    border-radius: 3%;
+    justify-content: center;
+
+}
+
+.proj1 p {
+    text-align: center;
+    margin-top: 4%;
+    font-weight: normal;
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
