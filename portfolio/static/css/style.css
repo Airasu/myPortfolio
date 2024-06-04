@@ -138,8 +138,9 @@ main .content .home h1 {
     align-items: center;
     font-size: normal;
     justify-content: center;
-    gap: 4em;
-    padding: 10em 0 0 0;
+    gap: 0.2em;
+    padding: 13em 0 0 0;
+
 }
 
 .contact .links a,
@@ -154,6 +155,7 @@ main .content .home h1 {
 .contact img {
     width: 40em;
     height: 40em;
+
 }
 
 .contact .links {
@@ -163,12 +165,20 @@ main .content .home h1 {
 }
 
 .contact .links h1 {
-    font-weight: normal;
+    font-weight: bold;
     font-size: 8em;
+
+
 
 }
 
 .contact .links img {
     width: 2em;
     height: 2em;
+}
+
+.projects h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 8em;
 }
