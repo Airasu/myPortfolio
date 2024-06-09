@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +10,7 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: x-small;
     display: flex;
     flex-direction: column;
@@ -155,7 +157,6 @@ main .content .home h1 {
 .contact img {
     width: 40em;
     height: 40em;
-
 }
 
 .contact .links {
@@ -172,41 +173,100 @@ main .content .home h1 {
 .contact .links img {
     width: 2em;
     height: 2em;
+    gap: 3em;
 }
 
 .projects h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 8em;
+    font-size: 6em;
+    margin-top: 8%;
 }
 
-.projects {
+.certs h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 6em;
+    margin-top: .5em !important;
+}
+
+
+.projects,
+.certs,
+.uniic {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     font-size: normal;
     justify-content: center;
     gap: 5em;
     padding: 10em 0 5 0;
-
-}
-
-
-
-.projects img {
-    margin-top: 1%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70em;
-    height: 50em;
-    border-radius: 3%;
-    justify-content: center;
-
 }
 
 .proj1 p {
+    margin-top: -2em;
     text-align: center;
-    margin-top: 4%;
     font-weight: normal;
     font-size: 2em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.certs p {
+    margin-top: -2em;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: -3%;
+}
+
+.projects-img,
+.certs-img,
+.uniic {
+    display: grid;
+    gap: 1em;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    margin: 3em auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.projects-img img,
+.certs-img img,
+.uniic img {
+    width: 90%;
+    border-radius: 3em;
+}
+
+.pic,
+.cert3,
+.pic2 {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.pic img,
+.cert3 img,
+.pic2 img {
+    width: 50%;
+}
+
+/* Additional consistency adjustments if necessary */
+.projects h1 {
+    margin-top: 1em;
+}
+
+.certs h1 {
+    margin-top: 3em;
+}
+
+.uniic {
+    width: 80%;
+    margin-top: -5em;
+    /* Adjusted to keep full width */
 }
