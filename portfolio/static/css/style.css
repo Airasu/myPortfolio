@@ -140,7 +140,7 @@ main .content .home h1 {
     align-items: center;
     font-size: normal;
     justify-content: center;
-    gap: 0.2em;
+    gap: 5em;
     padding: 13em 0 0 0;
 
 }
@@ -173,7 +173,6 @@ main .content .home h1 {
 .contact .links img {
     width: 2em;
     height: 2em;
-    gap: 3em;
 }
 
 .projects h1 {
